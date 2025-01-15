@@ -24,7 +24,7 @@ parser.add_argument("--seed", type=int, default=30)
 args = parser.parse_args()
 
 # repo_id = "cvssp/audioldm-m-full"
-local_model_path = 'ckpt/audioldm-m-full'
+local_model_path = 'ckpt/audioldm-m-full' 
 unet = UNet2DConditionModel.from_pretrained(local_model_path, subfolder='unet').to('cuda')
 pipe = AudioLDMPipeline.from_pretrained(local_model_path, unet=unet)
 pipe = pipe.to("cuda")

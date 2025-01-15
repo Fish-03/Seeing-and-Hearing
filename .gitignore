@@ -5,8 +5,6 @@ v2a/output
 v2a/qwen_ckpt
 v2a/demo/key_frames
 v2a/audioldm/output
-VGGSound/vggsound_audiocaps_downloader/data/dlt
-VGGSound/vggsound_audiocaps_downloader/__pycache__
-VGGSound/vggsound_audiocaps_downloader/bin
+VGGSound/vggsound/*
 *__pycache__*
 
